@@ -2,54 +2,19 @@
     <head>
         <meta charset="UTF-8">
         <title>鱼C-零基础入门学习Web（Html5+Css3）</title>
-        <style type="text/css">
-            body {
-                background-image: url("../profile/baiyun.jpg"); /*设置网页背景，‘../’意味着上一个文件夹*/
-            }
-            h1 {
-                text-align: center; /*设置文字居中*/
-                color:red; /*h1标签变为红色*/
-            }
-            h2 {
-                margin-left: 60%; /*设置左外边距*/
-            }
-            p {
-                color: blue;
-                text-indent: 32px; /*设置缩进*/
-                font-size: 16px; /*设置字体大小*/
-                line-height: 32px; /*设置行高*/
-            }
-            a {
-                color: yellow;
-                background: black;
-            }
-            img { /*设置图片位置*/
-                position: absolute; 
-                left: 50%;
-                margin-left: -181px;
-            }
-        </style>
-        <style media="print">/*设置打印模式*/
-            h1 {
-                color: black;
-            }
-            h2 {
-                color: black;
-            }
-            p {
-                color: black;
-            }
-        </style>
-        <style media="screen and (min-width: 512px) and (max-width:1024px)"> /*设置其他屏幕的显示样式*/
-            body {
-                background-image: url(hubian.jpg);
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css"><!--设置链式外部链接-->
+        <link rel="stylesheet" type="text/css" media="print" href="style.css"><!--设置打印模式-->
+        <link rel="stylesheet" type="text/css" media="screen and (min-width:512px) and (max-width:1024px)" href="screen512to1024.css"><!--设置其他屏幕的显示样式-->
+        <link rel="icon" type="image/x-icon" href="me.jpg"><!--设置网站图标-->
+        <base href="http://Bagoone.github.io" target="_blank"><!--设置基准的URL-->
     </head>
     <body>
         <h1>header 1</h1>
         <p>A paragraph.</p>
         <a href="https://www.bilibili.com/">快打开，小破站有好东西</a>
         <img src="../profile/shangshan.jpg" alt="上山">
+        <a href="index">第一个例子</a>
+        <a href="index.html">第二个例子</a>
+        <a href="index">第三个例子</a>
     </body>
 </html>
