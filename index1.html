@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>定义文档内嵌脚本</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Bagoone,HTML,CSS,学习笔记">
+        <meta name="description" content="《从零开始学习Web开发》">
+        <meta name="author" content="Bagoone">
+        <style>
+            span {
+                color: red;
+            } /*单独设置某些字的颜色*/
+        </style>
+        <script type="text/javascript" src="hi.js">
+        </script>
+        <script type="text/javascript" src="patch.js" defer>//defer只能用于外部延迟，延迟执行脚本</script> <!--定义脚本语句,引用外部脚本文件-->
+        <noscript>
+            <p>都什么年代了，没有JavaScript哪行？</p>
+            <img alt="嫌弃" src="me.jpg">
+        </noscript>
+    </head>
+    <body>
+        <p>上面的内容哪来的?</p>
+        <p>我是谁？</p>
+        <p>我从哪里来？</p>
+        <p>我要到哪里去？</p>
+        <p>黑夜给了我黑色的<br><span>眼睛</span>，</p><!--span为行内元素,br设置换行-->
+        <p>我却用它寻找<br><span>光明</span>。</p>
+    </body>
+</html>
