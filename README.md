@@ -16,3 +16,6 @@ add screen512to1024.css
 add shangshan.jpg
 add style.css
 update index.html //link设置链式外部链接、打印模式、其他屏幕的显示样式、网站图标，base设置基准的URL
+add hi.js
+add patch.js
+add index1.html //script设置外部脚本，defer用于外部延迟、noscript设置不支持javascript的浏览器的显示状态，用span单独显示及br换行
