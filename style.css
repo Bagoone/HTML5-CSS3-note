@@ -1,0 +1,25 @@
+ body {
+                background-image: url("../profile/baiyun.jpg"); /*设置网页背景，‘../’意味着上一个文件夹*/
+            }
+            h1 {
+                text-align: center; /*设置文字居中*/
+                color:red; /*h1标签变为红色*/
+            }
+            h2 {
+                margin-left: 60%; /*设置左外边距*/
+            }
+            p {
+                color: blue;
+                text-indent: 32px; /*设置缩进*/
+                font-size: 16px; /*设置字体大小*/
+                line-height: 32px; /*设置行高*/
+            }
+            a {
+                color: yellow;
+                background: black;
+            }
+            img { /*设置图片位置*/
+                position: absolute; 
+                left: 50%;
+                margin-left: -181px;
+            }
